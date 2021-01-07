@@ -41,6 +41,8 @@ a {
 }
 .list {
   list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .site-nav .link {
   color: var(--secondary-text-color);
@@ -70,6 +72,8 @@ a {
   color: var(--accent);
 }
 .accentpage {
+  margin-top: 0px;
+  margin-bottom: 30px;
   color: var(--white);
 
   font-weight: 900;
@@ -79,6 +83,7 @@ a {
   letter-spacing: 0.06em;
 }
 .section-order {
+  margin-bottom: 94px;
   background-color: #2f303a;
   align-items: center;
   text-align: center;
@@ -89,6 +94,11 @@ a {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
+  border: 0px;
 }
 .button.primery {
   color: var(--white);
@@ -104,6 +114,8 @@ a {
   background-color: #f5f4fa;
 }
 .section-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
   color: var(--secondary-text-color);
 
   font-weight: bold;
@@ -112,6 +124,8 @@ a {
   letter-spacing: 0.03em;
 }
 .profession {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
@@ -119,6 +133,8 @@ a {
   letter-spacing: 0.03em;
 }
 .name {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -129,6 +145,8 @@ a {
   background-color: #2f303a;
 }
 .adres {
+  margin-top: 0px;
+  margin-bottom: 0px;
   color: var(--white);
 }
 .links {
@@ -150,6 +168,8 @@ a {
   letter-spacing: 0.03em;
 }
 .kind {
+  margin-top: 0px;
+  margin-bottom: 0px;
   list-style: none;
   color: var(--primery-text-color);
   font-weight: normal;
@@ -164,6 +184,7 @@ a {
   letter-spacing: 0.06em;
 }
 .zag {
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -189,5 +210,33 @@ a {
   color: var(--white);
 }
 .bgcolor {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--secondary-bgcolor);
+}
+.conteiner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.site-nav list {
+}
+.discription {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.section-discription {
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 94px;
+}
+.margin {
+  margin-top: 0px;
+  margin-bottom: 94px;
+}
+.contboot {
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
