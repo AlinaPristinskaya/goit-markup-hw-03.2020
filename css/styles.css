@@ -19,6 +19,10 @@ body {
 a {
   text-decoration: none;
 }
+p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
 .black {
   color: var(--black);
 }
@@ -98,7 +102,6 @@ a {
   letter-spacing: 0.06em;
 }
 .section-order {
-  margin-bottom: 94px;
   background-color: #2f303a;
   align-items: center;
   text-align: center;
@@ -149,7 +152,7 @@ a {
 }
 .name {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 10 px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -163,8 +166,9 @@ a {
 }
 .adres {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   color: var(--white);
+  font-weight: 400;
 }
 .links {
   color: var(--whiitetrans);
@@ -216,6 +220,7 @@ a {
   color: var(--accent);
 }
 .logofoot {
+  margin-bottom: 20px;
   color: var(--accent);
   font-family: raleway, sans-serif;
   font-weight: bold;
@@ -250,7 +255,7 @@ a {
   justify-content: space-between;
   list-style: none;
   margin-top: 0px;
-  margin-bottom: 94px;
+  margin-bottom: 0px;
 }
 .margin {
   margin-top: 0px;
@@ -261,7 +266,7 @@ a {
 .contboot {
   width: 1170;
   margin-top: px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .flex-container {
@@ -326,8 +331,8 @@ ul.section-discription {
   margin-right: 0px;
 }
 .portfoliomain {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .filtr {
   margin-right: 8px;
@@ -337,4 +342,37 @@ ul.section-discription {
 }
 .site-nav {
   justify-content: center;
+}
+.logotip {
+  margin-bottom: 20px;
+}
+.sitenav .adres:last-child {
+  margin-bottom: 0px;
+}
+.aboutus {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.aboutusorder {
+  padding-top: 0px;
+  padding-bottom: 94px;
+}
+.card {
+  border: #eeeeee 1px solid;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+.card-comand {
+  border: #eeeeee 1px solid;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-color: var(--white);
+}
+.imgport-comand {
+  display: block;
+  padding-bottom: 30px;
+}
+.headerbord {
+  border-bottom: #eeeeee 1px solid;
 }
