@@ -287,6 +287,7 @@ p {
 
 .imgport {
   display: block;
+  margin-right: 0px;
 }
 ul.site-nav.list.flex-container {
   padding-inline-start: 0px;
@@ -360,9 +361,9 @@ ul.section-discription {
 .card {
   border: #eeeeee 1px solid;
   padding-top: 30px;
-  padding-left: 30px;
+  padding-left: 24px;
   padding-bottom: 20px;
-  padding-right: 30px;
+  padding-right: 24px;
 }
 .card-comand {
   border: #eeeeee 1px solid;
